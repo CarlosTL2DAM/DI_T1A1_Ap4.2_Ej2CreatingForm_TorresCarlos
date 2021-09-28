@@ -13,7 +13,7 @@
             </extension>
         </buildExtensions>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>DI_T1A1_Ap4.2_Ej2CreatingForm_TorresCarlos</name>
+            <name>DI_T1A1_Ap42_Ej2Form</name>
             <explicit-platform explicit-source-supported="true"/>
             <source-roots>
                 <root id="src.dir"/>
