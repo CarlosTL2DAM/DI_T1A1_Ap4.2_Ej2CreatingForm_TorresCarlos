@@ -37,6 +37,7 @@ public class DI_T1A1_Ap42_Ej2CreatingForm_TorresCarlos extends Application {
         //Mostramos la ventana emergente
         primaryStage.show();
 
+        
         //Parte 2.1 ...
         //Creamos un GridPane
         GridPane grid = new GridPane();
@@ -49,6 +50,7 @@ public class DI_T1A1_Ap42_Ej2CreatingForm_TorresCarlos extends Application {
         //Ajustamos que el tamaño de los huecos para la matriz sean de 25
         grid.setPadding(new Insets(25, 25, 25, 25));
 
+        
         //Parte 3
         //Añadimos un titulo para la escena
         Text scenetitle = new Text("Welcome");
@@ -77,6 +79,7 @@ public class DI_T1A1_Ap42_Ej2CreatingForm_TorresCarlos extends Application {
         //Incluimos el campo de contraseña en el grid en la posición Columna 1 Fila 2
         grid.add(pwBox, 1, 2);
 
+        
         //Parte 4
         //Creamos el boton
         Button btn = new Button("Sing in");
@@ -89,6 +92,7 @@ public class DI_T1A1_Ap42_Ej2CreatingForm_TorresCarlos extends Application {
         //Incluimos el HBox dentro del GridPane
         grid.add(hbBtn, 1, 4);
 
+        
         //Parte 5
         //Muestra un texto al final en principio vacio
         final Text actiontarget = new Text();
@@ -108,6 +112,7 @@ public class DI_T1A1_Ap42_Ej2CreatingForm_TorresCarlos extends Application {
             }
         });
 
+        
         //...Parte 2.2
         //Creamos la escena, incluyendo el Layout Grid que hemos creado
         Scene scene = new Scene(grid, 300, 275);
